@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Выбор действия</title>
+    <style>
+        body {
+            background: #0f172a;
+            font-family: "Segoe UI", sans-serif;
+            color: #f8fafc;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            font-size: 26px;
+            margin-bottom: 40px;
+            color: #e2e8f0;
+        }
+
+        .buttons {
+            width: 100%;
+            max-width: 320px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            align-items: center;
+        }
+
+        .button {
+            width: 100%;
+            padding: 15px 20px;
+            font-size: 17px;
+            font-weight: 500;
+            text-decoration: none;
+            color: white;
+            background: linear-gradient(135deg, #2563eb, #3b82f6);
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            transition: all 0.25s ease;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+            .button:hover {
+                transform: translateY(-2px);
+                background: linear-gradient(135deg, #1d4ed8, #2563eb);
+            }
+
+        footer {
+            margin-top: 60px;
+            padding: 20px;
+            font-size: 14px;
+            color: #94a3b8;
+        }
+    </style>
+</head>
+<body>
+    <h1>Выберите действие</h1>
+
+    <div class="buttons">
+        <a class="button" href="http://www.osu.ru/doc/1041/kaf/6562/prep/11724" target="_blank">
+            🌐 Профиль на сайте ОГУ
+        </a>
+        <a class="button" href="Олимп карта предприятия.pdf" target="_blank">
+            📄 Открыть карту предприятия
+        </a>
+    </div>
+
+    <footer>
+        © 2025 | Страница создана для информационных целей
+    </footer>
+</body>
+</html>
